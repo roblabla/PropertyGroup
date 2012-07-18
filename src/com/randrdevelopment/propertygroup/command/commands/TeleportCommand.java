@@ -18,7 +18,7 @@ public class TeleportCommand extends BaseCommand{
 	public TeleportCommand(PropertyGroup plugin) {
         super(plugin);
         name = "Teleport";
-        description = "Reloads the configuration.";
+        description = "Teleport to the property.";
         usage = "/property tp";
         minArgs = 1;
         maxArgs = 2;
